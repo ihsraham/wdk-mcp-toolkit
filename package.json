@@ -51,13 +51,16 @@
   },
   "dependencies": {
     "@inquirer/prompts": "^7.0.0",
-    "@modelcontextprotocol/sdk": "1.23.0",
+    "@modelcontextprotocol/sdk": "1.26.0",
     "@tetherto/wdk": "^1.0.0-beta.4",
     "@tetherto/wdk-indexer-http": "github:tetherto/wdk-indexer-http",
     "@tetherto/wdk-pricing-bitfinex-http": "^1.0.0-beta.1",
     "@tetherto/wdk-wallet": "^1.0.0-beta.6",
     "picocolors": "^1.1.0",
     "zod": "^3.24.0"
+  },
+  "overrides": {
+    "axios": "^1.15.0"
   },
   "devDependencies": {
     "@tetherto/wdk-wallet-btc": "^1.0.0-beta.6",
